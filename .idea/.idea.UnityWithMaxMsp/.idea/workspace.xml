@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="71ebf22b-e39a-4531-841b-d654c46dfb9b" name="Default Changelist" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/src/OSCHandler.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="102" column="8" lean-forward="true" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+              <folding>
+                <marker date="1573204973659" expanded="true" signature="0:1360" ph="/* UnityOSC - Open Sound Control interface for the Unity3d game engine ... */" />
+                <marker date="1573204973659" expanded="true" signature="1368:1463" ph="..." />
+                <marker date="1573204973659" expanded="true" signature="1465:1642" ph="/// Models a log of a server composed by an OSCServer, a List of OSCPacket and a List of ... " />
+                <marker date="1573204973659" expanded="true" signature="1666:1755" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="1757:1935" ph="/// Models a log of a client composed by an OSCClient, a List of OSCMessage and a List of ... " />
+                <marker date="1573204973659" expanded="true" signature="1959:2050" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="2052:2206" ph="/// Handles all the OSC servers and clients of the current Unity game/application. ... " />
+                <marker date="1573204973659" expanded="true" signature="2246:11454" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="2250:2564" ph="Singleton Constructors" />
+                <marker date="1573204973659" expanded="true" signature="2301:2307" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="2322:2328" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="2366:2552" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="2379:2549" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="2416:2506" ph="{...}" />
+                <marker date="1573204973659" expanded="false" signature="2568:2923" ph="Member Variables" />
+                <marker date="1573204973659" expanded="true" signature="2927:3045" ph="/// Initializes the OSC Handler. ... " />
+                <marker date="1573204973659" expanded="true" signature="3113:3376" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="3125:3320" ph="/* Initialize OSC clients (transmitters) ... */" />
+                <marker date="1573204973659" expanded="true" signature="3384:3591" ph="Properties" />
+                <marker date="1573204973659" expanded="true" signature="3451:3491" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="3460:3488" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="3539:3579" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="3548:3576" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="3595:11452" ph="Methods" />
+                <marker date="1573204973659" expanded="true" signature="3614:3774" ph="/// Ensure that the instance is destroyed when the game is stopped in the Unity editor ... " />
+                <marker date="1573204973659" expanded="true" signature="3801:4028" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="3863:3901" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="3963:4001" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="4032:4373" ph="/// Creates an OSC Client (sends OSC messages) given an outgoing port and address. ... " />
+                <marker date="1573204973659" expanded="true" signature="4449:5277" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="4491:4507" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="5281:5547" ph="/// Creates an OSC Server (listens to upcoming OSC messages) given an incoming port. ... " />
+                <marker date="1573204973659" expanded="true" signature="5605:5950" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="5956:6065" ph="/// &lt;summary&gt; ... " />
+                <marker date="1573204973659" expanded="true" signature="6127:6410" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="6257:6341" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="6414:6837" ph="/// Sends an OSC message to a specified client, given its clientId (defined at the OSC client construction), ... " />
+                <marker date="1573204973659" expanded="true" signature="6915:7033" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="7037:7469" ph="/// Sends an OSC message to a specified client, given its clientId (defined at the OSC client construction), ... " />
+                <marker date="1573204973659" expanded="true" signature="7554:8686" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="7595:8567" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="7684:7724" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="7777:8097" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="8105:8515" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="8574:8683" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="8690:8843" ph="/// Updates clients and servers logs. ... " />
+                <marker date="1573204973659" expanded="true" signature="8869:10426" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="8931:10423" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="8995:10419" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="9093:9602" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="9757:10414" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="9819:9921" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="10430:10675" ph="/// Converts a collection of object values to a concatenated string. ... " />
+                <marker date="1573204973659" expanded="true" signature="10723:10880" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="10789:10836" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="10884:11167" ph="/// Formats a milliseconds number to a 000 format. E.g. given 50, it outputs 050. Given 5, it outputs 005 ... " />
+                <marker date="1573204973659" expanded="true" signature="11220:11436" ph="{...}" />
+                <marker date="1573204973659" expanded="true" signature="11249:11396" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/OSCController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="536">
+              <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+              <folding>
+                <marker date="1573204986273" expanded="true" signature="6:78" ph="..." />
+                <marker date="1573204986273" expanded="true" signature="122:1427" ph="{...}" />
+                <marker date="1573204986273" expanded="true" signature="386:479" ph="{...}" />
+                <marker date="1573204986273" expanded="true" signature="537:1425" ph="{...}" />
+                <marker date="1573204986273" expanded="true" signature="673:1419" ph="{...}" />
+                <marker date="1573204986273" expanded="true" signature="730:784" ph="{...}" />
+                <marker date="1573204986273" expanded="true" signature="941:995" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>Init</find>
+    </findStrings>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/src/OSCHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/OSCController.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/src/OSCHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/OSCController.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-87" />
+    <option name="y" value="30" />
+    <option name="width" value="1066" />
+    <option name="height" value="965" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="UnityExplorer" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
+      </pane>
+      <pane id="UnityExplorer">
+        <option name="show-hidden-items" value="false" />
+        <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="FileSystemExplorer" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
+    <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <option name="userSelectedPid" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="71ebf22b-e39a-4531-841b-d654c46dfb9b" name="Default Changelist" comment="" />
+      <created>1573200628045</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1573200628045</updated>
+      <workItem from="1573200633068" duration="4823000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4823000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-87" y="30" width="1066" height="965" extended-state="0" />
+    <layout>
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24950299" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="NuGet" />
+      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Unity" />
+      <window_info anchor="bottom" id="Database Changes" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Unit Tests" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Errors In Solution" />
+      <window_info anchor="right" id="Database" />
+      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" suspend="NONE" type="DotNet Exception Breakpoints">
+          <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Assets/src/OSCHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="102" column="8" lean-forward="true" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+          <folding>
+            <marker date="1573204973659" expanded="true" signature="0:1360" ph="/* UnityOSC - Open Sound Control interface for the Unity3d game engine ... */" />
+            <marker date="1573204973659" expanded="true" signature="1368:1463" ph="..." />
+            <marker date="1573204973659" expanded="true" signature="1465:1642" ph="/// Models a log of a server composed by an OSCServer, a List of OSCPacket and a List of ... " />
+            <marker date="1573204973659" expanded="true" signature="1666:1755" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="1757:1935" ph="/// Models a log of a client composed by an OSCClient, a List of OSCMessage and a List of ... " />
+            <marker date="1573204973659" expanded="true" signature="1959:2050" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="2052:2206" ph="/// Handles all the OSC servers and clients of the current Unity game/application. ... " />
+            <marker date="1573204973659" expanded="true" signature="2246:11454" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="2250:2564" ph="Singleton Constructors" />
+            <marker date="1573204973659" expanded="true" signature="2301:2307" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="2322:2328" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="2366:2552" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="2379:2549" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="2416:2506" ph="{...}" />
+            <marker date="1573204973659" expanded="false" signature="2568:2923" ph="Member Variables" />
+            <marker date="1573204973659" expanded="true" signature="2927:3045" ph="/// Initializes the OSC Handler. ... " />
+            <marker date="1573204973659" expanded="true" signature="3113:3376" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="3125:3320" ph="/* Initialize OSC clients (transmitters) ... */" />
+            <marker date="1573204973659" expanded="true" signature="3384:3591" ph="Properties" />
+            <marker date="1573204973659" expanded="true" signature="3451:3491" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="3460:3488" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="3539:3579" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="3548:3576" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="3595:11452" ph="Methods" />
+            <marker date="1573204973659" expanded="true" signature="3614:3774" ph="/// Ensure that the instance is destroyed when the game is stopped in the Unity editor ... " />
+            <marker date="1573204973659" expanded="true" signature="3801:4028" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="3863:3901" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="3963:4001" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="4032:4373" ph="/// Creates an OSC Client (sends OSC messages) given an outgoing port and address. ... " />
+            <marker date="1573204973659" expanded="true" signature="4449:5277" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="4491:4507" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="5281:5547" ph="/// Creates an OSC Server (listens to upcoming OSC messages) given an incoming port. ... " />
+            <marker date="1573204973659" expanded="true" signature="5605:5950" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="5956:6065" ph="/// &lt;summary&gt; ... " />
+            <marker date="1573204973659" expanded="true" signature="6127:6410" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="6257:6341" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="6414:6837" ph="/// Sends an OSC message to a specified client, given its clientId (defined at the OSC client construction), ... " />
+            <marker date="1573204973659" expanded="true" signature="6915:7033" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="7037:7469" ph="/// Sends an OSC message to a specified client, given its clientId (defined at the OSC client construction), ... " />
+            <marker date="1573204973659" expanded="true" signature="7554:8686" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="7595:8567" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="7684:7724" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="7777:8097" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="8105:8515" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="8574:8683" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="8690:8843" ph="/// Updates clients and servers logs. ... " />
+            <marker date="1573204973659" expanded="true" signature="8869:10426" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="8931:10423" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="8995:10419" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="9093:9602" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="9757:10414" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="9819:9921" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="10430:10675" ph="/// Converts a collection of object values to a concatenated string. ... " />
+            <marker date="1573204973659" expanded="true" signature="10723:10880" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="10789:10836" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="10884:11167" ph="/// Formats a milliseconds number to a 000 format. E.g. given 50, it outputs 050. Given 5, it outputs 005 ... " />
+            <marker date="1573204973659" expanded="true" signature="11220:11436" ph="{...}" />
+            <marker date="1573204973659" expanded="true" signature="11249:11396" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OSCController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="536">
+          <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+          <folding>
+            <marker date="1573204986273" expanded="true" signature="6:78" ph="..." />
+            <marker date="1573204986273" expanded="true" signature="122:1427" ph="{...}" />
+            <marker date="1573204986273" expanded="true" signature="386:479" ph="{...}" />
+            <marker date="1573204986273" expanded="true" signature="537:1425" ph="{...}" />
+            <marker date="1573204986273" expanded="true" signature="673:1419" ph="{...}" />
+            <marker date="1573204986273" expanded="true" signature="730:784" ph="{...}" />
+            <marker date="1573204986273" expanded="true" signature="941:995" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
