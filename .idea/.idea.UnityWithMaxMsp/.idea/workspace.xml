@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71ebf22b-e39a-4531-841b-d654c46dfb9b" name="Default Changelist" comment="" />
+    <list default="true" id="71ebf22b-e39a-4531-841b-d654c46dfb9b" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityWithMaxMsp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityWithMaxMsp/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityWithMaxMsp/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityWithMaxMsp/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityWithMaxMsp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityWithMaxMsp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/OSCController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OSCController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,12 +15,12 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/src/OSCHandler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="360">
-              <caret line="102" column="8" lean-forward="true" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+            <state relative-caret-position="3585">
+              <caret line="262" column="41" selection-start-line="262" selection-start-column="41" selection-end-line="262" selection-end-column="41" />
               <folding>
                 <marker date="1573204973659" expanded="true" signature="0:1360" ph="/* UnityOSC - Open Sound Control interface for the Unity3d game engine ... */" />
                 <marker date="1573204973659" expanded="true" signature="1368:1463" ph="..." />
@@ -79,19 +85,67 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/OSCController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="536">
-              <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+            <state relative-caret-position="675">
+              <caret line="51" column="51" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
               <folding>
-                <marker date="1573204986273" expanded="true" signature="6:78" ph="..." />
-                <marker date="1573204986273" expanded="true" signature="122:1427" ph="{...}" />
-                <marker date="1573204986273" expanded="true" signature="386:479" ph="{...}" />
-                <marker date="1573204986273" expanded="true" signature="537:1425" ph="{...}" />
-                <marker date="1573204986273" expanded="true" signature="673:1419" ph="{...}" />
-                <marker date="1573204986273" expanded="true" signature="730:784" ph="{...}" />
-                <marker date="1573204986273" expanded="true" signature="941:995" ph="{...}" />
+                <marker date="1573614742347" expanded="true" signature="6:92" ph="..." />
+                <marker date="1573614742347" expanded="true" signature="136:1586" ph="{...}" />
+                <marker date="1573614742347" expanded="true" signature="432:525" ph="{...}" />
+                <marker date="1573614742347" expanded="true" signature="583:1584" ph="{...}" />
+                <marker date="1573614742347" expanded="true" signature="719:1578" ph="{...}" />
+                <marker date="1573614742347" expanded="true" signature="776:830" ph="{...}" />
+                <marker date="1573614742347" expanded="true" signature="987:1041" ph="{...}" />
+                <marker date="1573614742347" expanded="true" signature="1140:1436" ph="/* Debug.Log(&quot;Receive : &quot; ... */" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/reciveValue.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+              <folding>
+                <marker date="1573625967116" expanded="false" signature="6:78" ph="..." />
+                <marker date="1573625967116" expanded="true" signature="120:507" ph="{...}" />
+                <marker date="1573625967116" expanded="true" signature="229:312" ph="{...}" />
+                <marker date="1573625967116" expanded="true" signature="370:505" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/Cube.shader">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="270">
+              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+              <folding>
+                <marker date="1573617623533" expanded="true" signature="20:3642" ph="{...}" />
+                <marker date="1573617623533" expanded="true" signature="41:392" ph="{...}" />
+                <marker date="1573617623533" expanded="true" signature="411:3640" ph="{...}" />
+                <marker date="1573617623533" expanded="true" signature="581:3634" ph="{...}" />
+                <marker date="1573617623533" expanded="true" signature="604:3619" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Assets/sphere.shader">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="304">
+              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+              <folding>
+                <marker date="1573614952966" expanded="true" signature="22:1465" ph="{...}" />
+                <marker date="1573614952966" expanded="true" signature="43:133" ph="{...}" />
+                <marker date="1573614952966" expanded="true" signature="152:1463" ph="{...}" />
+                <marker date="1573614952966" expanded="true" signature="231:1457" ph="{...}" />
+                <marker date="1573614952966" expanded="true" signature="254:1442" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -104,22 +158,38 @@
       <find>Init</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/src/OSCHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OSCController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Cube.shader" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/reciveValue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/sphere.shader" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/src/OSCHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/OSCController.cs" />
+        <option value="$PROJECT_DIR$/Assets/sphere.shader" />
+        <option value="$PROJECT_DIR$/Assets/Cube.shader" />
+        <option value="$PROJECT_DIR$/Assets/reciveValue.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/.idea.UnityWithMaxMsp/.idea/vcs.xml" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-87" />
-    <option name="y" value="30" />
-    <option name="width" value="1066" />
+    <option name="x" value="24" />
+    <option name="y" value="122" />
+    <option name="width" value="1214" />
     <option name="height" value="965" />
   </component>
   <component name="ProjectView">
@@ -128,6 +198,7 @@
     </navigator>
     <panes>
       <pane id="AssemblyExplorer" />
+      <pane id="FileSystemExplorer" />
       <pane id="SolutionExplorer">
         <option name="show-all-files" value="false" />
       </pane>
@@ -135,7 +206,6 @@
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
       </pane>
-      <pane id="FileSystemExplorer" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -143,6 +213,12 @@
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -185,11 +261,13 @@
       <option name="presentableId" value="Default" />
       <updated>1573200628045</updated>
       <workItem from="1573200633068" duration="4823000" />
+      <workItem from="1573612831888" duration="3113000" />
+      <workItem from="1573617594792" duration="3699000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4823000" />
+    <option name="totallyTimeSpent" value="11635000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -201,33 +279,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-87" y="30" width="1066" height="965" extended-state="0" />
+    <frame x="24" y="122" width="1214" height="965" extended-state="0" />
     <layout>
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24950299" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22530329" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="NuGet" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Unity" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Unit Tests" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Performance Profiler" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" visible="true" weight="0.3290398" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Errors In Solution" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Unit Tests Coverage" />
+      <window_info anchor="bottom" id="NuGet" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Performance Profiler" order="8" />
+      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="10" />
+      <window_info anchor="bottom" id="Unity" order="11" />
+      <window_info anchor="bottom" id="Database Changes" order="12" />
+      <window_info anchor="bottom" id="Unit Tests" order="13" />
+      <window_info anchor="bottom" id="Terminal" order="14" />
+      <window_info anchor="bottom" id="Event Log" order="15" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Errors In Solution" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -248,8 +326,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Assets/src/OSCHandler.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="102" column="8" lean-forward="true" selection-start-line="102" selection-start-column="8" selection-end-line="102" selection-end-column="8" />
+        <state relative-caret-position="3585">
+          <caret line="262" column="41" selection-start-line="262" selection-start-column="41" selection-end-line="262" selection-end-column="41" />
           <folding>
             <marker date="1573204973659" expanded="true" signature="0:1360" ph="/* UnityOSC - Open Sound Control interface for the Unity3d game engine ... */" />
             <marker date="1573204973659" expanded="true" signature="1368:1463" ph="..." />
@@ -315,16 +393,58 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/OSCController.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="536">
-          <caret line="41" column="35" lean-forward="true" selection-start-line="41" selection-start-column="35" selection-end-line="41" selection-end-column="35" />
+        <state relative-caret-position="675">
+          <caret line="51" column="51" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
           <folding>
-            <marker date="1573204986273" expanded="true" signature="6:78" ph="..." />
-            <marker date="1573204986273" expanded="true" signature="122:1427" ph="{...}" />
-            <marker date="1573204986273" expanded="true" signature="386:479" ph="{...}" />
-            <marker date="1573204986273" expanded="true" signature="537:1425" ph="{...}" />
-            <marker date="1573204986273" expanded="true" signature="673:1419" ph="{...}" />
-            <marker date="1573204986273" expanded="true" signature="730:784" ph="{...}" />
-            <marker date="1573204986273" expanded="true" signature="941:995" ph="{...}" />
+            <marker date="1573614742347" expanded="true" signature="6:92" ph="..." />
+            <marker date="1573614742347" expanded="true" signature="136:1586" ph="{...}" />
+            <marker date="1573614742347" expanded="true" signature="432:525" ph="{...}" />
+            <marker date="1573614742347" expanded="true" signature="583:1584" ph="{...}" />
+            <marker date="1573614742347" expanded="true" signature="719:1578" ph="{...}" />
+            <marker date="1573614742347" expanded="true" signature="776:830" ph="{...}" />
+            <marker date="1573614742347" expanded="true" signature="987:1041" ph="{...}" />
+            <marker date="1573614742347" expanded="true" signature="1140:1436" ph="/* Debug.Log(&quot;Receive : &quot; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/sphere.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding>
+            <marker date="1573614952966" expanded="true" signature="22:1465" ph="{...}" />
+            <marker date="1573614952966" expanded="true" signature="43:133" ph="{...}" />
+            <marker date="1573614952966" expanded="true" signature="152:1463" ph="{...}" />
+            <marker date="1573614952966" expanded="true" signature="231:1457" ph="{...}" />
+            <marker date="1573614952966" expanded="true" signature="254:1442" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/Cube.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+          <folding>
+            <marker date="1573617623533" expanded="true" signature="20:3642" ph="{...}" />
+            <marker date="1573617623533" expanded="true" signature="41:392" ph="{...}" />
+            <marker date="1573617623533" expanded="true" signature="411:3640" ph="{...}" />
+            <marker date="1573617623533" expanded="true" signature="581:3634" ph="{...}" />
+            <marker date="1573617623533" expanded="true" signature="604:3619" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/reciveValue.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+          <folding>
+            <marker date="1573625967116" expanded="false" signature="6:78" ph="..." />
+            <marker date="1573625967116" expanded="true" signature="120:507" ph="{...}" />
+            <marker date="1573625967116" expanded="true" signature="229:312" ph="{...}" />
+            <marker date="1573625967116" expanded="true" signature="370:505" ph="{...}" />
           </folding>
         </state>
       </provider>

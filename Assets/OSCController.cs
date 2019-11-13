@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,6 +12,7 @@ public class OSCController : MonoBehaviour
     public KeyCode debugKey = KeyCode.S;
     public string debugMessage = "/sample";
     private long latestTimeStamp = 0;
+    public static double value;
     
     void Start()
     {
@@ -38,13 +40,17 @@ public class OSCController : MonoBehaviour
             }
 
             this.latestTimeStamp = item.Value.packets[latestPacketIndex].TimeStamp;
-            
-            Debug.Log("Receive : " 
-                        + item.Value.packets[latestPacketIndex].TimeStamp
-                        + "/"
-                        + item.Value.packets[latestPacketIndex].Address
-                        + "/"
-                        + item.Value.packets[latestPacketIndex].Data[0]);
+
+            /*Debug.Log("Receive : "
+                      + item.Value.packets[latestPacketIndex].TimeStamp
+                      + "/"
+                      + item.Value.packets[latestPacketIndex].Address
+                      + "/"
+                      + item.Value.packets[latestPacketIndex].Data[0]);*/
+            var objectResult = item.Value.packets[latestPacketIndex].Data[0];
+
+            value = Convert.ToDouble(objectResult);
+
         }
     }
 }
