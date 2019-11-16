@@ -13,12 +13,9 @@ public class OSCController : MonoBehaviour
     public KeyCode debugKey = KeyCode.S;
     public string debugMessage = "/sample";
     private long latestTimeStamp = 0;
-<<<<<<< HEAD
-    public static double value;
-    
-=======
 
->>>>>>> 767cc18626fe3ebad429c7882e6a608f45378f70
+    public static double value;//受信した値を格納
+
     void Start()
     {
         OSCHandler.Instance.Init(this.serverId, this.serverIp, this.serverPort, this.Port);
@@ -49,7 +46,6 @@ public class OSCController : MonoBehaviour
 
             this.latestTimeStamp = item.Value.packets[latestPacketIndex].TimeStamp;
 
-<<<<<<< HEAD
             /*Debug.Log("Receive : "
                       + item.Value.packets[latestPacketIndex].TimeStamp
                       + "/"
@@ -60,14 +56,16 @@ public class OSCController : MonoBehaviour
 
             value = Convert.ToDouble(objectResult);
 
-=======
-            Debug.Log("Receive : "
+
+            /*Debug.Log("Receive : "
                         + item.Value.packets[latestPacketIndex].TimeStamp
                         + "/"
                         + item.Value.packets[latestPacketIndex].Address
                         + "/"
                         + item.Value.packets[latestPacketIndex].Data[0]);
->>>>>>> 767cc18626fe3ebad429c7882e6a608f45378f70
+            Debug.Log(value);*/
+
         }
     }
+
 }

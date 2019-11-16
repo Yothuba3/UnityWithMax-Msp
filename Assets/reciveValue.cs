@@ -5,7 +5,7 @@ using UnityEngine;
 public class reciveValue : MonoBehaviour
 {
     private Material _material;
-    
+
     // Start is called before the first frame update
     void Start()
     {
@@ -16,7 +16,7 @@ public class reciveValue : MonoBehaviour
     void Update()
     {
         float _value = (float) OSCController.value;
-        this._material.SetFloat("_RadSize", _value * 0.005f);
-        
+        this._material.SetFloat("_NormalPush", _value * 0.001f);
+
     }
 }
