@@ -1,4 +1,4 @@
-﻿Shader "Unlit/Cube"
+﻿Shader "Unlit/tekitou"
 {
     Properties
     {
@@ -69,18 +69,17 @@
             }
 
             [maxvertexcount(4)]
-            void geom(point v2g IN[1], inout TriangleStream<g2f> stream){
+            void geom(triangle v2g IN[3], inout TriangleStream<g2f> stream){
 
                 //float angle = IN[0].vertex.y * 4.0 + (degrees(_Time.y%1)/10);
                 //float angle = _Time * rand(IN[0].vertex.xz) * rand(IN[0].vertex.yx) * _TimeFactor;
                 float angle = _Time * _TimeFactor;
                 float2x2 rotateM = float2x2(cos(angle), -sin(angle), sin(angle),cos(angle));
-
-                //float3 normal = normalize(cross((IN[2].vertex - IN[0].vertex), (IN[1].vertex - IN[0].vertex)));
+                float3 normal = normalize(cross((IN[2].vertex - IN[0].vertex), (IN[1].vertex - IN[0].vertex)));
 				g2f o;
 				o.color = _Color;
 				float3 pos = IN[0].vertex;
-				pos += IN[0].normal * _NormalPush;
+				pos += normal * _NormalPush;
 				pos.xz = mul(rotateM,pos.xz);
 				pos.zy = mul(rotateM, pos.zy);
 				//pos.xy = mul(rotateM, pos.xy);
@@ -114,10 +113,9 @@
 				clip(1-l);
 				float3 color = i.color;
 
-				/*color *= pow(max(0, 0.5) + 1 - l, 0.5) * 2;
+				color *= pow(max(0, 0.5) + 1 - l, 0.5) * 2;
 				color = min(1, color);
 				color = pow(color, 2.2);
-*/
 
 				return float4(color,smoothstep(1,0.8,l)*_Color.a);
 

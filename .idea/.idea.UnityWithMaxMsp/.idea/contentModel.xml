@@ -8,6 +8,7 @@
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Cube.shader" t="Include" />
+        <e p="objectScaling.cs" t="Include" />
         <e p="OSCController.cs" t="Include" />
         <e p="reciveValue.cs" t="Include" />
         <e p="sphere.shader" t="Include" />
@@ -30,6 +31,7 @@
           </e>
           <e p="OSCHandler.cs" t="Include" />
         </e>
+        <e p="tekitou.shader" t="Include" />
       </e>
       <e p="obj" t="ExcludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />

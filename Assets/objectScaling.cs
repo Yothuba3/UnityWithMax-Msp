@@ -2,22 +2,19 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class reciveValue : MonoBehaviour
+public class objectScaling : MonoBehaviour
 {
-    private Material _material;
-
     // Start is called before the first frame update
     void Start()
     {
-        this._material = gameObject.GetComponent<Renderer>().material;
+        
     }
 
     // Update is called once per frame
     void Update()
     {
         float _value = (float) OSCController.value;
-        this._material.SetFloat("_NormalPush", _value * 0.001f);
-        Debug.Log(_value);
-
+        _value *= 0.01f;
+        this.transform.localScale = new Vector3(1 + _value, 1 + _value, 1 + _value);
     }
 }

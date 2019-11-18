@@ -3,10 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="71ebf22b-e39a-4531-841b-d654c46dfb9b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityWithMaxMsp/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityWithMaxMsp/.idea/contentModel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityWithMaxMsp/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityWithMaxMsp/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.UnityWithMaxMsp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UnityWithMaxMsp/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/OSCController.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/OSCController.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cube.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cube.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Cube.shader" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Cube.shader" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/MaxToUnityMusicValue.maxpat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/MaxToUnityMusicValue.maxpat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Plugins/Editor/JetBrains/JetBrains.Rider.Unity.Editor.Plugin.Repacked.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/demo.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/demo.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/reciveValue.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/reciveValue.cs" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,67 +23,68 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/src/OSCHandler.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3585">
+            <state relative-caret-position="1605">
               <caret line="262" column="41" selection-start-line="262" selection-start-column="41" selection-end-line="262" selection-end-column="41" />
               <folding>
-                <marker date="1573204973659" expanded="true" signature="0:1360" ph="/* UnityOSC - Open Sound Control interface for the Unity3d game engine ... */" />
-                <marker date="1573204973659" expanded="true" signature="1368:1463" ph="..." />
-                <marker date="1573204973659" expanded="true" signature="1465:1642" ph="/// Models a log of a server composed by an OSCServer, a List of OSCPacket and a List of ... " />
-                <marker date="1573204973659" expanded="true" signature="1666:1755" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="1757:1935" ph="/// Models a log of a client composed by an OSCClient, a List of OSCMessage and a List of ... " />
-                <marker date="1573204973659" expanded="true" signature="1959:2050" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="2052:2206" ph="/// Handles all the OSC servers and clients of the current Unity game/application. ... " />
-                <marker date="1573204973659" expanded="true" signature="2246:11454" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="2250:2564" ph="Singleton Constructors" />
-                <marker date="1573204973659" expanded="true" signature="2301:2307" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="2322:2328" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="2366:2552" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="2379:2549" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="2416:2506" ph="{...}" />
-                <marker date="1573204973659" expanded="false" signature="2568:2923" ph="Member Variables" />
-                <marker date="1573204973659" expanded="true" signature="2927:3045" ph="/// Initializes the OSC Handler. ... " />
-                <marker date="1573204973659" expanded="true" signature="3113:3376" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="3125:3320" ph="/* Initialize OSC clients (transmitters) ... */" />
-                <marker date="1573204973659" expanded="true" signature="3384:3591" ph="Properties" />
-                <marker date="1573204973659" expanded="true" signature="3451:3491" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="3460:3488" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="3539:3579" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="3548:3576" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="3595:11452" ph="Methods" />
-                <marker date="1573204973659" expanded="true" signature="3614:3774" ph="/// Ensure that the instance is destroyed when the game is stopped in the Unity editor ... " />
-                <marker date="1573204973659" expanded="true" signature="3801:4028" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="3863:3901" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="3963:4001" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="4032:4373" ph="/// Creates an OSC Client (sends OSC messages) given an outgoing port and address. ... " />
-                <marker date="1573204973659" expanded="true" signature="4449:5277" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="4491:4507" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="5281:5547" ph="/// Creates an OSC Server (listens to upcoming OSC messages) given an incoming port. ... " />
-                <marker date="1573204973659" expanded="true" signature="5605:5950" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="5956:6065" ph="/// &lt;summary&gt; ... " />
-                <marker date="1573204973659" expanded="true" signature="6127:6410" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="6257:6341" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="6414:6837" ph="/// Sends an OSC message to a specified client, given its clientId (defined at the OSC client construction), ... " />
-                <marker date="1573204973659" expanded="true" signature="6915:7033" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="7037:7469" ph="/// Sends an OSC message to a specified client, given its clientId (defined at the OSC client construction), ... " />
-                <marker date="1573204973659" expanded="true" signature="7554:8686" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="7595:8567" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="7684:7724" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="7777:8097" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="8105:8515" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="8574:8683" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="8690:8843" ph="/// Updates clients and servers logs. ... " />
-                <marker date="1573204973659" expanded="true" signature="8869:10426" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="8931:10423" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="8995:10419" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="9093:9602" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="9757:10414" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="9819:9921" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="10430:10675" ph="/// Converts a collection of object values to a concatenated string. ... " />
-                <marker date="1573204973659" expanded="true" signature="10723:10880" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="10789:10836" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="10884:11167" ph="/// Formats a milliseconds number to a 000 format. E.g. given 50, it outputs 050. Given 5, it outputs 005 ... " />
-                <marker date="1573204973659" expanded="true" signature="11220:11436" ph="{...}" />
-                <marker date="1573204973659" expanded="true" signature="11249:11396" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="0:1350" ph="/* UnityOSC - Open Sound Control interface for the Unity3d game engine ... */" />
+                <marker date="1573683257271" expanded="false" signature="1358:1453" ph="..." />
+                <marker date="1573683257271" expanded="true" signature="1455:1632" ph="/// Models a log of a server composed by an OSCServer, a List of OSCPacket and a List of ... " />
+                <marker date="1573683257271" expanded="true" signature="1656:1745" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="1747:1925" ph="/// Models a log of a client composed by an OSCClient, a List of OSCMessage and a List of ... " />
+                <marker date="1573683257271" expanded="true" signature="1949:2040" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="2042:2196" ph="/// Handles all the OSC servers and clients of the current Unity game/application. ... " />
+                <marker date="1573683257271" expanded="true" signature="2236:11343" ph="{...}" />
+                <marker date="1573683257271" expanded="false" signature="2240:2542" ph="Singleton Constructors" />
+                <marker date="1573683257271" expanded="true" signature="2291:2297" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="2312:2318" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="2354:2530" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="2366:2527" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="2402:2492" ph="{...}" />
+                <marker date="1573683257271" expanded="false" signature="2545:2899" ph="Member Variables" />
+                <marker date="1573683257271" expanded="true" signature="2902:3020" ph="/// Initializes the OSC Handler. ... " />
+                <marker date="1573683257271" expanded="true" signature="3098:3344" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="3110:3167" ph="/* Initialize OSC clients (transmitters) ... */" />
+                <marker date="1573683257271" expanded="true" signature="3247:3302" ph="/* Initialize OSC servers (listeners) ... */" />
+                <marker date="1573683257271" expanded="false" signature="3351:3557" ph="Properties" />
+                <marker date="1573683257271" expanded="true" signature="3418:3458" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="3427:3455" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="3505:3545" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="3514:3542" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="3560:11341" ph="Methods" />
+                <marker date="1573683257271" expanded="true" signature="3578:3738" ph="/// Ensure that the instance is destroyed when the game is stopped in the Unity editor ... " />
+                <marker date="1573683257271" expanded="true" signature="3764:3986" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="3826:3864" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="3924:3962" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="3989:4330" ph="/// Creates an OSC Client (sends OSC messages) given an outgoing port and address. ... " />
+                <marker date="1573683257271" expanded="true" signature="4406:5226" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="4448:4464" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="5229:5495" ph="/// Creates an OSC Server (listens to upcoming OSC messages) given an incoming port. ... " />
+                <marker date="1573683257271" expanded="true" signature="5553:5896" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="5902:6011" ph="/// &lt;summary&gt; ... " />
+                <marker date="1573683257271" expanded="true" signature="6073:6356" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="6203:6287" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="6359:6782" ph="/// Sends an OSC message to a specified client, given its clientId (defined at the OSC client construction), ... " />
+                <marker date="1573683257271" expanded="true" signature="6860:6976" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="6979:7411" ph="/// Sends an OSC message to a specified client, given its clientId (defined at the OSC client construction), ... " />
+                <marker date="1573683257271" expanded="true" signature="7496:8615" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="7536:8496" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="7623:7663" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="7713:8033" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="8041:8447" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="8503:8612" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="8618:8771" ph="/// Updates clients and servers logs. ... " />
+                <marker date="1573683257271" expanded="true" signature="8797:10332" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="8859:10329" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="8923:10325" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="9021:9523" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="9672:10320" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="9733:9835" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="10335:10580" ph="/// Converts a collection of object values to a concatenated string. ... " />
+                <marker date="1573683257271" expanded="true" signature="10628:10779" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="10692:10739" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="10782:11065" ph="/// Formats a milliseconds number to a 000 format. E.g. given 50, it outputs 050. Given 5, it outputs 005 ... " />
+                <marker date="1573683257271" expanded="true" signature="11118:11328" ph="{...}" />
+                <marker date="1573683257271" expanded="true" signature="11146:11290" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -88,64 +93,49 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/OSCController.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="675">
-              <caret line="51" column="51" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
+            <state relative-caret-position="408">
+              <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
-                <marker date="1573614742347" expanded="true" signature="6:92" ph="..." />
-                <marker date="1573614742347" expanded="true" signature="136:1586" ph="{...}" />
-                <marker date="1573614742347" expanded="true" signature="432:525" ph="{...}" />
-                <marker date="1573614742347" expanded="true" signature="583:1584" ph="{...}" />
-                <marker date="1573614742347" expanded="true" signature="719:1578" ph="{...}" />
-                <marker date="1573614742347" expanded="true" signature="776:830" ph="{...}" />
-                <marker date="1573614742347" expanded="true" signature="987:1041" ph="{...}" />
-                <marker date="1573614742347" expanded="true" signature="1140:1436" ph="/* Debug.Log(&quot;Receive : &quot; ... */" />
+                <marker date="1573970736576" expanded="true" signature="6:92" ph="..." />
+                <marker date="1573970736576" expanded="true" signature="136:2161" ph="{...}" />
+                <marker date="1573970736576" expanded="true" signature="468:572" ph="{...}" />
+                <marker date="1573970736576" expanded="true" signature="630:2158" ph="{...}" />
+                <marker date="1573970736576" expanded="true" signature="681:813" ph="{...}" />
+                <marker date="1573970736576" expanded="true" signature="942:2152" ph="{...}" />
+                <marker date="1573970736576" expanded="true" signature="999:1053" ph="{...}" />
+                <marker date="1573970736576" expanded="true" signature="1210:1264" ph="{...}" />
+                <marker date="1573970736576" expanded="true" signature="1363:1659" ph="/* Debug.Log(&quot;Receive : &quot; ... */" />
+                <marker date="1573970736576" expanded="true" signature="1805:2141" ph="/* Debug.Log(&quot;Receive : &quot; ... */" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Assets/objectScaling.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+              <folding>
+                <marker date="1573973297697" expanded="false" signature="6:78" ph="..." />
+                <marker date="1573973297697" expanded="true" signature="122:449" ph="{...}" />
+                <marker date="1573973297697" expanded="true" signature="194:215" ph="{...}" />
+                <marker date="1573973297697" expanded="true" signature="273:447" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Assets/reciveValue.cs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+            <state relative-caret-position="208">
+              <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
               <folding>
-                <marker date="1573625967116" expanded="false" signature="6:78" ph="..." />
-                <marker date="1573625967116" expanded="true" signature="120:507" ph="{...}" />
-                <marker date="1573625967116" expanded="true" signature="229:312" ph="{...}" />
-                <marker date="1573625967116" expanded="true" signature="370:505" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/Cube.shader">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="270">
-              <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
-              <folding>
-                <marker date="1573617623533" expanded="true" signature="20:3642" ph="{...}" />
-                <marker date="1573617623533" expanded="true" signature="41:392" ph="{...}" />
-                <marker date="1573617623533" expanded="true" signature="411:3640" ph="{...}" />
-                <marker date="1573617623533" expanded="true" signature="581:3634" ph="{...}" />
-                <marker date="1573617623533" expanded="true" signature="604:3619" ph="{...}" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Assets/sphere.shader">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
-              <folding>
-                <marker date="1573614952966" expanded="true" signature="22:1465" ph="{...}" />
-                <marker date="1573614952966" expanded="true" signature="43:133" ph="{...}" />
-                <marker date="1573614952966" expanded="true" signature="152:1463" ph="{...}" />
-                <marker date="1573614952966" expanded="true" signature="231:1457" ph="{...}" />
-                <marker date="1573614952966" expanded="true" signature="254:1442" ph="{...}" />
+                <marker date="1573972059528" expanded="false" signature="6:78" ph="..." />
+                <marker date="1573972059528" expanded="true" signature="120:525" ph="{...}" />
+                <marker date="1573972059528" expanded="true" signature="225:308" ph="{...}" />
+                <marker date="1573972059528" expanded="true" signature="366:523" ph="{...}" />
               </folding>
             </state>
           </provider>
@@ -162,10 +152,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/objectScaling.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/src/OSCHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/OSCController.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Cube.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/reciveValue.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/tekitou.shader" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/sphere.shader" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -176,6 +168,8 @@
         <option value="$PROJECT_DIR$/Assets/sphere.shader" />
         <option value="$PROJECT_DIR$/Assets/Cube.shader" />
         <option value="$PROJECT_DIR$/Assets/reciveValue.cs" />
+        <option value="$PROJECT_DIR$/Assets/tekitou.shader" />
+        <option value="$PROJECT_DIR$/Assets/objectScaling.cs" />
       </list>
     </option>
   </component>
@@ -187,24 +181,24 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="24" />
-    <option name="y" value="122" />
-    <option name="width" value="1214" />
-    <option name="height" value="965" />
+    <option name="x" value="130" />
+    <option name="y" value="130" />
+    <option name="width" value="1582" />
+    <option name="height" value="742" />
   </component>
   <component name="ProjectView">
     <navigator currentView="UnityExplorer" proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AssemblyExplorer" />
       <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <option name="show-all-files" value="false" />
-      </pane>
       <pane id="UnityExplorer">
         <option name="show-hidden-items" value="false" />
         <option name="show-project-names" value="true" />
+      </pane>
+      <pane id="AssemblyExplorer" />
+      <pane id="SolutionExplorer">
+        <option name="show-all-files" value="false" />
       </pane>
     </panes>
   </component>
@@ -263,11 +257,13 @@
       <workItem from="1573200633068" duration="4823000" />
       <workItem from="1573612831888" duration="3113000" />
       <workItem from="1573617594792" duration="3699000" />
+      <workItem from="1573971089525" duration="872000" />
+      <workItem from="1573972021430" duration="1875000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11635000" />
+    <option name="totallyTimeSpent" value="14382000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -279,9 +275,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="24" y="122" width="1214" height="965" extended-state="0" />
+    <frame x="130" y="130" width="1582" height="742" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22530329" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17674112" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -324,94 +320,10 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Assets/src/OSCHandler.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3585">
-          <caret line="262" column="41" selection-start-line="262" selection-start-column="41" selection-end-line="262" selection-end-column="41" />
-          <folding>
-            <marker date="1573204973659" expanded="true" signature="0:1360" ph="/* UnityOSC - Open Sound Control interface for the Unity3d game engine ... */" />
-            <marker date="1573204973659" expanded="true" signature="1368:1463" ph="..." />
-            <marker date="1573204973659" expanded="true" signature="1465:1642" ph="/// Models a log of a server composed by an OSCServer, a List of OSCPacket and a List of ... " />
-            <marker date="1573204973659" expanded="true" signature="1666:1755" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="1757:1935" ph="/// Models a log of a client composed by an OSCClient, a List of OSCMessage and a List of ... " />
-            <marker date="1573204973659" expanded="true" signature="1959:2050" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="2052:2206" ph="/// Handles all the OSC servers and clients of the current Unity game/application. ... " />
-            <marker date="1573204973659" expanded="true" signature="2246:11454" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="2250:2564" ph="Singleton Constructors" />
-            <marker date="1573204973659" expanded="true" signature="2301:2307" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="2322:2328" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="2366:2552" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="2379:2549" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="2416:2506" ph="{...}" />
-            <marker date="1573204973659" expanded="false" signature="2568:2923" ph="Member Variables" />
-            <marker date="1573204973659" expanded="true" signature="2927:3045" ph="/// Initializes the OSC Handler. ... " />
-            <marker date="1573204973659" expanded="true" signature="3113:3376" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="3125:3320" ph="/* Initialize OSC clients (transmitters) ... */" />
-            <marker date="1573204973659" expanded="true" signature="3384:3591" ph="Properties" />
-            <marker date="1573204973659" expanded="true" signature="3451:3491" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="3460:3488" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="3539:3579" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="3548:3576" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="3595:11452" ph="Methods" />
-            <marker date="1573204973659" expanded="true" signature="3614:3774" ph="/// Ensure that the instance is destroyed when the game is stopped in the Unity editor ... " />
-            <marker date="1573204973659" expanded="true" signature="3801:4028" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="3863:3901" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="3963:4001" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="4032:4373" ph="/// Creates an OSC Client (sends OSC messages) given an outgoing port and address. ... " />
-            <marker date="1573204973659" expanded="true" signature="4449:5277" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="4491:4507" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="5281:5547" ph="/// Creates an OSC Server (listens to upcoming OSC messages) given an incoming port. ... " />
-            <marker date="1573204973659" expanded="true" signature="5605:5950" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="5956:6065" ph="/// &lt;summary&gt; ... " />
-            <marker date="1573204973659" expanded="true" signature="6127:6410" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="6257:6341" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="6414:6837" ph="/// Sends an OSC message to a specified client, given its clientId (defined at the OSC client construction), ... " />
-            <marker date="1573204973659" expanded="true" signature="6915:7033" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="7037:7469" ph="/// Sends an OSC message to a specified client, given its clientId (defined at the OSC client construction), ... " />
-            <marker date="1573204973659" expanded="true" signature="7554:8686" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="7595:8567" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="7684:7724" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="7777:8097" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="8105:8515" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="8574:8683" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="8690:8843" ph="/// Updates clients and servers logs. ... " />
-            <marker date="1573204973659" expanded="true" signature="8869:10426" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="8931:10423" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="8995:10419" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="9093:9602" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="9757:10414" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="9819:9921" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="10430:10675" ph="/// Converts a collection of object values to a concatenated string. ... " />
-            <marker date="1573204973659" expanded="true" signature="10723:10880" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="10789:10836" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="10884:11167" ph="/// Formats a milliseconds number to a 000 format. E.g. given 50, it outputs 050. Given 5, it outputs 005 ... " />
-            <marker date="1573204973659" expanded="true" signature="11220:11436" ph="{...}" />
-            <marker date="1573204973659" expanded="true" signature="11249:11396" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Assets/OSCController.cs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="675">
-          <caret line="51" column="51" selection-start-line="51" selection-start-column="51" selection-end-line="51" selection-end-column="51" />
-          <folding>
-            <marker date="1573614742347" expanded="true" signature="6:92" ph="..." />
-            <marker date="1573614742347" expanded="true" signature="136:1586" ph="{...}" />
-            <marker date="1573614742347" expanded="true" signature="432:525" ph="{...}" />
-            <marker date="1573614742347" expanded="true" signature="583:1584" ph="{...}" />
-            <marker date="1573614742347" expanded="true" signature="719:1578" ph="{...}" />
-            <marker date="1573614742347" expanded="true" signature="776:830" ph="{...}" />
-            <marker date="1573614742347" expanded="true" signature="987:1041" ph="{...}" />
-            <marker date="1573614742347" expanded="true" signature="1140:1436" ph="/* Debug.Log(&quot;Receive : &quot; ... */" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/sphere.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="32" column="35" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+        <state relative-caret-position="810">
+          <caret line="54" column="49" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
           <folding>
             <marker date="1573614952966" expanded="true" signature="22:1465" ph="{...}" />
             <marker date="1573614952966" expanded="true" signature="43:133" ph="{...}" />
@@ -422,29 +334,143 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/src/OSCHandler.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1605">
+          <caret line="262" column="41" selection-start-line="262" selection-start-column="41" selection-end-line="262" selection-end-column="41" />
+          <folding>
+            <marker date="1573683257271" expanded="true" signature="0:1350" ph="/* UnityOSC - Open Sound Control interface for the Unity3d game engine ... */" />
+            <marker date="1573683257271" expanded="false" signature="1358:1453" ph="..." />
+            <marker date="1573683257271" expanded="true" signature="1455:1632" ph="/// Models a log of a server composed by an OSCServer, a List of OSCPacket and a List of ... " />
+            <marker date="1573683257271" expanded="true" signature="1656:1745" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="1747:1925" ph="/// Models a log of a client composed by an OSCClient, a List of OSCMessage and a List of ... " />
+            <marker date="1573683257271" expanded="true" signature="1949:2040" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="2042:2196" ph="/// Handles all the OSC servers and clients of the current Unity game/application. ... " />
+            <marker date="1573683257271" expanded="true" signature="2236:11343" ph="{...}" />
+            <marker date="1573683257271" expanded="false" signature="2240:2542" ph="Singleton Constructors" />
+            <marker date="1573683257271" expanded="true" signature="2291:2297" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="2312:2318" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="2354:2530" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="2366:2527" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="2402:2492" ph="{...}" />
+            <marker date="1573683257271" expanded="false" signature="2545:2899" ph="Member Variables" />
+            <marker date="1573683257271" expanded="true" signature="2902:3020" ph="/// Initializes the OSC Handler. ... " />
+            <marker date="1573683257271" expanded="true" signature="3098:3344" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="3110:3167" ph="/* Initialize OSC clients (transmitters) ... */" />
+            <marker date="1573683257271" expanded="true" signature="3247:3302" ph="/* Initialize OSC servers (listeners) ... */" />
+            <marker date="1573683257271" expanded="false" signature="3351:3557" ph="Properties" />
+            <marker date="1573683257271" expanded="true" signature="3418:3458" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="3427:3455" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="3505:3545" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="3514:3542" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="3560:11341" ph="Methods" />
+            <marker date="1573683257271" expanded="true" signature="3578:3738" ph="/// Ensure that the instance is destroyed when the game is stopped in the Unity editor ... " />
+            <marker date="1573683257271" expanded="true" signature="3764:3986" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="3826:3864" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="3924:3962" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="3989:4330" ph="/// Creates an OSC Client (sends OSC messages) given an outgoing port and address. ... " />
+            <marker date="1573683257271" expanded="true" signature="4406:5226" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="4448:4464" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="5229:5495" ph="/// Creates an OSC Server (listens to upcoming OSC messages) given an incoming port. ... " />
+            <marker date="1573683257271" expanded="true" signature="5553:5896" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="5902:6011" ph="/// &lt;summary&gt; ... " />
+            <marker date="1573683257271" expanded="true" signature="6073:6356" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="6203:6287" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="6359:6782" ph="/// Sends an OSC message to a specified client, given its clientId (defined at the OSC client construction), ... " />
+            <marker date="1573683257271" expanded="true" signature="6860:6976" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="6979:7411" ph="/// Sends an OSC message to a specified client, given its clientId (defined at the OSC client construction), ... " />
+            <marker date="1573683257271" expanded="true" signature="7496:8615" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="7536:8496" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="7623:7663" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="7713:8033" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="8041:8447" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="8503:8612" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="8618:8771" ph="/// Updates clients and servers logs. ... " />
+            <marker date="1573683257271" expanded="true" signature="8797:10332" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="8859:10329" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="8923:10325" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="9021:9523" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="9672:10320" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="9733:9835" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="10335:10580" ph="/// Converts a collection of object values to a concatenated string. ... " />
+            <marker date="1573683257271" expanded="true" signature="10628:10779" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="10692:10739" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="10782:11065" ph="/// Formats a milliseconds number to a 000 format. E.g. given 50, it outputs 050. Given 5, it outputs 005 ... " />
+            <marker date="1573683257271" expanded="true" signature="11118:11328" ph="{...}" />
+            <marker date="1573683257271" expanded="true" signature="11146:11290" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/OSCController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
+          <folding>
+            <marker date="1573970736576" expanded="true" signature="6:92" ph="..." />
+            <marker date="1573970736576" expanded="true" signature="136:2161" ph="{...}" />
+            <marker date="1573970736576" expanded="true" signature="468:572" ph="{...}" />
+            <marker date="1573970736576" expanded="true" signature="630:2158" ph="{...}" />
+            <marker date="1573970736576" expanded="true" signature="681:813" ph="{...}" />
+            <marker date="1573970736576" expanded="true" signature="942:2152" ph="{...}" />
+            <marker date="1573970736576" expanded="true" signature="999:1053" ph="{...}" />
+            <marker date="1573970736576" expanded="true" signature="1210:1264" ph="{...}" />
+            <marker date="1573970736576" expanded="true" signature="1363:1659" ph="/* Debug.Log(&quot;Receive : &quot; ... */" />
+            <marker date="1573970736576" expanded="true" signature="1805:2141" ph="/* Debug.Log(&quot;Receive : &quot; ... */" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/tekitou.shader">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="337">
+          <caret line="71" column="30" selection-start-line="71" selection-start-column="30" selection-end-line="71" selection-end-column="30" />
+          <folding>
+            <marker date="1573972502349" expanded="true" signature="23:3421" ph="{...}" />
+            <marker date="1573972502349" expanded="true" signature="44:225" ph="{...}" />
+            <marker date="1573972502349" expanded="true" signature="244:3419" ph="{...}" />
+            <marker date="1573972502349" expanded="true" signature="414:3413" ph="{...}" />
+            <marker date="1573972502349" expanded="true" signature="437:3398" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Assets/Cube.shader">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="16" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="16" />
+        <state relative-caret-position="210">
+          <caret line="91" column="41" selection-start-line="91" selection-start-column="41" selection-end-line="91" selection-end-column="41" />
           <folding>
-            <marker date="1573617623533" expanded="true" signature="20:3642" ph="{...}" />
-            <marker date="1573617623533" expanded="true" signature="41:392" ph="{...}" />
-            <marker date="1573617623533" expanded="true" signature="411:3640" ph="{...}" />
-            <marker date="1573617623533" expanded="true" signature="581:3634" ph="{...}" />
-            <marker date="1573617623533" expanded="true" signature="604:3619" ph="{...}" />
+            <marker date="1573971858860" expanded="true" signature="20:3429" ph="{...}" />
+            <marker date="1573971858860" expanded="true" signature="41:222" ph="{...}" />
+            <marker date="1573971858860" expanded="true" signature="241:3427" ph="{...}" />
+            <marker date="1573971858860" expanded="true" signature="411:3421" ph="{...}" />
+            <marker date="1573971858860" expanded="true" signature="434:3406" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Assets/reciveValue.cs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="12" column="5" selection-start-line="12" selection-start-column="5" selection-end-line="12" selection-end-column="5" />
+        <state relative-caret-position="208">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
           <folding>
-            <marker date="1573625967116" expanded="false" signature="6:78" ph="..." />
-            <marker date="1573625967116" expanded="true" signature="120:507" ph="{...}" />
-            <marker date="1573625967116" expanded="true" signature="229:312" ph="{...}" />
-            <marker date="1573625967116" expanded="true" signature="370:505" ph="{...}" />
+            <marker date="1573972059528" expanded="false" signature="6:78" ph="..." />
+            <marker date="1573972059528" expanded="true" signature="120:525" ph="{...}" />
+            <marker date="1573972059528" expanded="true" signature="225:308" ph="{...}" />
+            <marker date="1573972059528" expanded="true" signature="366:523" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Assets/objectScaling.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="16" column="23" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <marker date="1573973297697" expanded="false" signature="6:78" ph="..." />
+            <marker date="1573973297697" expanded="true" signature="122:449" ph="{...}" />
+            <marker date="1573973297697" expanded="true" signature="194:215" ph="{...}" />
+            <marker date="1573973297697" expanded="true" signature="273:447" ph="{...}" />
           </folding>
         </state>
       </provider>
